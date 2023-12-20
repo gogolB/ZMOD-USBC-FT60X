@@ -37,6 +37,8 @@ IsVirtualBomDocumentRemoved=0
 OutputPath=Project Outputs
 LogFolderPath=Project Logs
 ManagedProjectGUID=
+VaultGUID=fec2a36b-0a95-4098-b08f-7d2b0647ea76
+ReleaseVaultName=Gogol Bhattacharya (Personal)
 Template=dxp://VaultExplorer:Navigate_URL?VaultGUID=fec2a36b-0a95-4098-b08f-7d2b0647ea76&ItemGUID=B5BB7D54-9BD9-4573-819D-89B199AD8CFF&RevisionGUID=42D9159A-8A41-4B48-B8D9-FF1E7BC5064E&"MainFilename=SZG-TEMPLATE-STD.PRJPCB"
 IncludeDesignInRelease=0
 CrossRefSheetStyle=1
@@ -46,8 +48,6 @@ CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
 CurrentVariant=Default
-VaultGUID=fec2a36b-0a95-4098-b08f-7d2b0647ea76
-ReleaseVaultName=Gogol Bhattacharya (Personal)
 
 [Preferences]
 PrefsVaultGUID=
@@ -138,6 +138,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=KHFJYFXU
 
+[Document6]
+DocumentPath=USBC.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=ZHELVXFD
+
 [ProjectVariant1]
 UniqueID=14CA1B18-1E35-4252-AE5E-FB413C5D5A3D
 Description=Default
@@ -151,16 +168,16 @@ Variation4=Designator=J2|UniqueId=\WVEFMCFE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Title
-Value=ZMod USBC FT60X
+Name=Engineer
+Value=Gogol Bhattacharya
 
 [Parameter2]
 Name=Revision
 Value=01-A
 
 [Parameter3]
-Name=Engineer
-Value=Gogol Bhattacharya
+Name=Title
+Value=ZMod USBC FT60X
 
 [Configuration1]
 Name=Default Configuration
@@ -989,36 +1006,6 @@ OutputName12=Web Review Data
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=Ansoft Neutral
-OutputName13=Ansoft Neutral (AutoPCB)
-OutputDocumentPath13=
-OutputVariantName13=
-OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
-OutputDocumentPath14=
-OutputVariantName14=
-OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
@@ -1436,159 +1423,17 @@ NetClassAutoNamedHarnessEnabled=0
 NetClassManualEnabled=0
 NetClassSeparateForBusSections=0
 
-[ToDoManager]
-ProjectToDo1=Name=Update GN1406 to PCIe capacitors.|State=1|UID=ORITEYKM
-ProjectToDo2=Name=RSTOUT18 / FPGA reset question|UID=DNXHBVEK
-ProjectToDo3=Name=LCLK 0-ohm pullups.  NoLoad.|State=1|UID=RXCHSPBL
-ProjectToDo4=Name=Finalize PCIe|State=1|UID=SCOPRKTQ
-ProjectToDo5=Name=Finalize FPGA-PCIe|State=1|UID=EJUFCDEQ
-ProjectToDo6=Name=Finalize FPGA|State=1|UID=MWDUKEHG
-ProjectToDo7=Name=Finalize Memory|State=1|UID=YLNBILXC
-ProjectToDo8=Name=Finalize Expansion|State=1|UID=SNIPNFYU
-ProjectToDo9=Name=Finalize Power|State=1|UID=PVTPMEHU
-ProjectToDo10=Name=Finalize Power-PCIe|State=1|UID=LVJRQQCJ
-ProjectToDo11=Name=Confirm EEPROM choice again.|State=1|UID=WSEIDVCG
-ProjectToDo12=Name=Review expansion connector/XEM3010|State=1|UID=AAJEHHNV
-ProjectToDo13=Name=0402 resistors: R14, R16, R17, R15.|State=1|UID=QAEGFMMN
-ProjectToDo14=Name=Power estimation for Xilinx.|State=1|UID=NVACFYUL
-ProjectToDo15=Name=Ferrite bead currents|State=1|UID=ENIJCWSU
-ProjectToDo16=Name=Swapped a few pairs in RP6 and RP8|Owner=Tony Karavidas|UID=NPTEXMFG
-ProjectToDo17=Name=Hours:~1~11 hour from previous job touchup.~1~12 hours 6-26-2010~12 hours 6-27-2010~1~1Swapped 2 resistors in RP12. Maintained same connection end to end. Need to ease routing.|Owner=Tony Karavidas|Category=Hours|UID=QHSCILHO
-
-[Comparison Options]
-ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
-ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
-ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
-
-[SmartPDF]
-PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.34|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
-Configuration_Name1=OutputConfigurationParameter1
-Configuration_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
-Configuration_Name2=OutputConfigurationParameter2
-Configuration_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
-Configuration_Name3=OutputConfigurationParameter3
-Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name4=OutputConfigurationParameter4
-Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name5=OutputConfigurationParameter5
-Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name6=OutputConfigurationParameter6
-Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name7=OutputConfigurationParameter7
-Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name8=OutputConfigurationParameter8
-Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name9=OutputConfigurationParameter9
-Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name10=OutputConfigurationParameter10
-Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-Configuration_Name11=OutputConfigurationParameter11
-Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
-
 [LibraryUpdateOptions]
 SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
-ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=Aligni.DbLib/parts
-ComponentDesignItemID0=000070
-ComponentSymbolReference0=Capacitor
-ComponentUpdate0=0
+ComponentLibIdentifierKind0=Library Name Only
+ComponentLibraryIdentifier0=Gogol Bhattacharya (Personal)
+ComponentDesignItemID0=CMP-004-000004-1
+ComponentSymbolReference0=e04fd4c30857d4eb607c700c21d87fb
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Aligni.DbLib/parts
-ComponentDesignItemID1=000605
-ComponentSymbolReference1=LABEL
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
-ComponentLibIdentifierKind2=Library Name And Type
-ComponentLibraryIdentifier2=Aligni.DbLib/parts
-ComponentDesignItemID2=000780
-ComponentSymbolReference2=Resistor
-ComponentUpdate2=1
-ComponentIsDeviceSheet2=0
-ComponentLibIdentifierKind3=Library Name And Type
-ComponentLibraryIdentifier3=Aligni.DbLib/parts
-ComponentDesignItemID3=000875
-ComponentSymbolReference3=PMOD-2A
-ComponentUpdate3=1
-ComponentIsDeviceSheet3=0
-ComponentLibIdentifierKind4=Library Name And Type
-ComponentLibraryIdentifier4=Aligni.DbLib/parts
-ComponentDesignItemID4=000889
-ComponentSymbolReference4=NSQA6V8AW5T2G
-ComponentUpdate4=1
-ComponentIsDeviceSheet4=0
-ComponentLibIdentifierKind5=Library Name And Type
-ComponentLibraryIdentifier5=Aligni.DbLib/parts
-ComponentDesignItemID5=001440
-ComponentSymbolReference5=QTE_QSE-020
-ComponentUpdate5=1
-ComponentIsDeviceSheet5=0
-ComponentLibIdentifierKind6=Library Name And Type
-ComponentLibraryIdentifier6=Aligni.DbLib/parts
-ComponentDesignItemID6=001521
-ComponentSymbolReference6=Resistor
-ComponentUpdate6=1
-ComponentIsDeviceSheet6=0
-ComponentLibIdentifierKind7=Library Name And Type
-ComponentLibraryIdentifier7=Aligni.DbLib/parts
-ComponentDesignItemID7=001552
-ComponentSymbolReference7=ATTINYx4A-MU
-ComponentUpdate7=1
-ComponentIsDeviceSheet7=0
-ComponentLibIdentifierKind8=Library Name And Type
-ComponentLibraryIdentifier8=Aligni.DbLib/parts
-ComponentDesignItemID8=001553
-ComponentSymbolReference8=Header 1X6
-ComponentUpdate8=1
-ComponentIsDeviceSheet8=0
-ComponentLibIdentifierKind9=Library Name And Type
-ComponentLibraryIdentifier9=Aligni.DbLib/parts
-ComponentDesignItemID9=001588
-ComponentSymbolReference9=PCB
-ComponentUpdate9=1
-ComponentIsDeviceSheet9=0
-ComponentLibIdentifierKind10=Library Name And Type
-ComponentLibraryIdentifier10=Aligni.DbLib/parts
-ComponentDesignItemID10=001589
-ComponentSymbolReference10=ASSEMBLY
-ComponentUpdate10=1
-ComponentIsDeviceSheet10=0
-ComponentLibIdentifierKind11=Library Name And Type
-ComponentLibraryIdentifier11=Aligni.DbLib/parts
-ComponentDesignItemID11=001593
-ComponentSymbolReference11=PMOD-2A
-ComponentUpdate11=1
-ComponentIsDeviceSheet11=0
-ComponentLibIdentifierKind12=Library Name And Type
-ComponentLibraryIdentifier12=NoBOM.Schlib
-ComponentDesignItemID12=FIDUCIAL
-ComponentSymbolReference12=FIDUCIAL
-ComponentUpdate12=0
-ComponentIsDeviceSheet12=0
-ComponentLibIdentifierKind13=Library Name And Type
-ComponentLibraryIdentifier13=NoBOM.Schlib
-ComponentDesignItemID13=MTG
-ComponentSymbolReference13=MTG
-ComponentUpdate13=0
-ComponentIsDeviceSheet13=0
-ComponentLibIdentifierKind14=Library Name And Type
-ComponentLibraryIdentifier14=NoBOM.Schlib
-ComponentDesignItemID14=OKLOGO
-ComponentSymbolReference14=OKLOGO
-ComponentUpdate14=0
-ComponentIsDeviceSheet14=0
-ComponentLibIdentifierKind15=Library Name And Type
-ComponentLibraryIdentifier15=NoBOM.Schlib
-ComponentDesignItemID15=TESTPOINT-SMD20
-ComponentSymbolReference15=TESTPOINT-SMD20
-ComponentUpdate15=1
-ComponentIsDeviceSheet15=0
 FullReplace=0
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1606,11 +1451,11 @@ ParameterName0=Comment
 ParameterUpdate0=1
 ParameterName1=Component Kind
 ParameterUpdate1=1
-ParameterName2=Date
+ParameterName2=Component Type
 ParameterUpdate2=1
 ParameterName3=Description
 ParameterUpdate3=1
-ParameterName4=Description 2
+ParameterName4=Design Item ID
 ParameterUpdate4=1
 ParameterName5=Library Reference
 ParameterUpdate5=1
@@ -1620,86 +1465,19 @@ ParameterName7=Manufacturer_PN
 ParameterUpdate7=1
 ParameterName8=PartNumber
 ParameterUpdate8=1
-ParameterName9=Revision
+ParameterName9=Pin Count
 ParameterUpdate9=1
-ParameterName10=Tolerance (%)
+ParameterName10=Source
 ParameterUpdate10=1
 ParameterName11=updated_on
 ParameterUpdate11=1
-ParameterName12=Value
+ParameterName12=x_lifecycle_status
 ParameterUpdate12=1
-ParameterName13=ValueFloat
-ParameterUpdate13=1
-ParameterName14=x_lifecycle_status
-ParameterUpdate14=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=1L-10-241-06-1
+ModelName0=FP-RKS0020A-MFG
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=CAPC1005N
-ModelUpdate1=1
-ModelType2=PCBLIB
-ModelName2=CAPC1005X06N
-ModelUpdate2=1
-ModelType3=PCBLIB
-ModelName3=FID1MM/2MM-SS
-ModelUpdate3=1
-ModelType4=PCBLIB
-ModelName4=HDR1X6
-ModelUpdate4=1
-ModelType5=PCBLIB
-ModelName5=HDR1X6-2MM-STAGGERED
-ModelUpdate5=1
-ModelType6=PCBLIB
-ModelName6=HDR2X6_CEN
-ModelUpdate6=1
-ModelType7=PCBLIB
-ModelName7=HDR2X6_CEN_RA
-ModelUpdate7=1
-ModelType8=PCBLIB
-ModelName8=MTG-2.5/5.0-PTH
-ModelUpdate8=1
-ModelType9=PCBLIB
-ModelName9=MTG-2.7/5.0-PTH
-ModelUpdate9=1
-ModelType10=PCBLIB
-ModelName10=MTG-3.0/5.0-PTH
-ModelUpdate10=1
-ModelType11=PCBLIB
-ModelName11=MTG-3.2/6.5-PTH
-ModelUpdate11=1
-ModelType12=PCBLIB
-ModelName12=MTG-5.0/10.0-PTH
-ModelUpdate12=1
-ModelType13=PCBLIB
-ModelName13=okLogo-23x5
-ModelUpdate13=1
-ModelType14=PCBLIB
-ModelName14=okLogo-30x6
-ModelUpdate14=1
-ModelType15=PCBLIB
-ModelName15=okLogo-60x13
-ModelUpdate15=1
-ModelType16=PCBLIB
-ModelName16=QFN-EP-20
-ModelUpdate16=1
-ModelType17=PCBLIB
-ModelName17=QTE-020-01-X-D-A-L
-ModelUpdate17=1
-ModelType18=PCBLIB
-ModelName18=RESC1005N
-ModelUpdate18=1
-ModelType19=PCBLIB
-ModelName19=RESC1005X06N
-ModelUpdate19=1
-ModelType20=PCBLIB
-ModelName20=SOT-323-5
-ModelUpdate20=1
-ModelType21=PCBLIB
-ModelName21=TP-SMD20
-ModelUpdate21=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
@@ -2126,4 +1904,56 @@ ComponentDesignItemID69=OKLOGO
 ComponentSymbolReference69=OKLOGO
 ComponentUpdate69=1
 ComponentIsDeviceSheet69=0
+
+[ToDoManager]
+ProjectToDo1=Name=Update GN1406 to PCIe capacitors.|State=1|UID=ORITEYKM
+ProjectToDo2=Name=RSTOUT18 / FPGA reset question|UID=DNXHBVEK
+ProjectToDo3=Name=LCLK 0-ohm pullups.  NoLoad.|State=1|UID=RXCHSPBL
+ProjectToDo4=Name=Finalize PCIe|State=1|UID=SCOPRKTQ
+ProjectToDo5=Name=Finalize FPGA-PCIe|State=1|UID=EJUFCDEQ
+ProjectToDo6=Name=Finalize FPGA|State=1|UID=MWDUKEHG
+ProjectToDo7=Name=Finalize Memory|State=1|UID=YLNBILXC
+ProjectToDo8=Name=Finalize Expansion|State=1|UID=SNIPNFYU
+ProjectToDo9=Name=Finalize Power|State=1|UID=PVTPMEHU
+ProjectToDo10=Name=Finalize Power-PCIe|State=1|UID=LVJRQQCJ
+ProjectToDo11=Name=Confirm EEPROM choice again.|State=1|UID=WSEIDVCG
+ProjectToDo12=Name=Review expansion connector/XEM3010|State=1|UID=AAJEHHNV
+ProjectToDo13=Name=0402 resistors: R14, R16, R17, R15.|State=1|UID=QAEGFMMN
+ProjectToDo14=Name=Power estimation for Xilinx.|State=1|UID=NVACFYUL
+ProjectToDo15=Name=Ferrite bead currents|State=1|UID=ENIJCWSU
+ProjectToDo16=Name=Swapped a few pairs in RP6 and RP8|Owner=Tony Karavidas|UID=NPTEXMFG
+ProjectToDo17=Name=Hours:~1~11 hour from previous job touchup.~1~12 hours 6-26-2010~12 hours 6-27-2010~1~1Swapped 2 resistors in RP12. Maintained same connection end to end. Need to ease routing.|Owner=Tony Karavidas|Category=Hours|UID=QHSCILHO
+
+[Comparison Options]
+ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=0|UseName=-1|InclAllRules=0
+ComparisonOptions1=Kind=Net Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions2=Kind=Component Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions3=Kind=Rule|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+ComparisonOptions4=Kind=Differential Pair|MinPercent=50|MinMatch=1|ShowMatch=0|UseName=0|InclAllRules=0
+ComparisonOptions5=Kind=Structure Class|MinPercent=75|MinMatch=3|ShowMatch=-1|UseName=-1|InclAllRules=0
+
+[SmartPDF]
+PageOptions=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=2.34|XCorrection=1.00|YCorrection=1.00|PrintKind=0|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-4|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4
+Configuration_Name1=OutputConfigurationParameter1
+Configuration_Item1=PrintArea=DesignExtent|PrintAreaLowerLeftCornerX=0|PrintAreaLowerLeftCornerY=0|PrintAreaUpperRightCornerX=0|PrintAreaUpperRightCornerY=0|Record=PcbPrintView
+Configuration_Name2=OutputConfigurationParameter2
+Configuration_Item2=IncludeBottomLayerComponents=True|IncludeMultiLayerComponents=True|IncludeTopLayerComponents=True|Index=0|Mirror=False|Name=Multilayer Composite Print|PadNumberFontSize=14|Record=PcbPrintOut|ShowHoles=False|ShowPadNets=False|ShowPadNumbers=False|SubstituteFonts=False
+Configuration_Name3=OutputConfigurationParameter3
+Configuration_Item3=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name4=OutputConfigurationParameter4
+Configuration_Item4=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name5=OutputConfigurationParameter5
+Configuration_Item5=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MidLayer2|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name6=OutputConfigurationParameter6
+Configuration_Item6=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name7=OutputConfigurationParameter7
+Configuration_Item7=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=TopOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name8=OutputConfigurationParameter8
+Configuration_Item8=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=BottomOverlay|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name9=OutputConfigurationParameter9
+Configuration_Item9=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=Mechanical1|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name10=OutputConfigurationParameter10
+Configuration_Item10=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=KeepOutLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
+Configuration_Name11=OutputConfigurationParameter11
+Configuration_Item11=CArc=Full|CFill=Full|Comment=Full|Coordinate=Full|CPad=Full|CRegion=Full|CText=Full|CTrack=Full|CVia=Full|DDSymbolKind=0|DDSymbolSize=500000|DDSymbolSortKind=0|Designator=Full|Dimension=Full|DLayer1=TopLayer|DLayer2=BottomLayer|FArc=Full|FFill=Full|FPad=Full|FRegion=Full|FText=Full|FTrack=Full|FVia=Full|Layer=MultiLayer|Polygon=Full|PrintOutIndex=0|Record=PcbPrintLayer
 
