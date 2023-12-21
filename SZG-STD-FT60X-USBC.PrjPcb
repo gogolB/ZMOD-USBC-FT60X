@@ -166,17 +166,21 @@ Variation3=Designator=J2|UniqueId=\MAVWGEYD|Kind=1|AlternatePart=
 Variation4=Designator=J2|UniqueId=\WVEFMCFE|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
+[GeneratedDocument1]
+DocumentPath=Project Outputs\Design Rule Check - SZG-TEMPLATE-STD.html
+DItemRevisionGUID=
+
 [Parameter1]
-Name=Title
-Value=ZMod USBC FT60X
+Name=Engineer
+Value=Gogol Bhattacharya
 
 [Parameter2]
 Name=Revision
 Value=01-A
 
 [Parameter3]
-Name=Engineer
-Value=Gogol Bhattacharya
+Name=Title
+Value=ZMod USBC FT60X
 
 [Configuration1]
 Name=Default Configuration
