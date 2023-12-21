@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=0
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=0
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -71,6 +71,23 @@ GenerateClassCluster=0
 DocumentUniqueId=YQXWWORU
 
 [Document2]
+DocumentPath=FTDI_60X.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=KHFJYFXU
+
+[Document3]
 DocumentPath=SZG-TEMPLATE-STD.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -87,7 +104,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PXXWPWJM
 
-[Document3]
+[Document4]
 DocumentPath=SZG-TEMPLATE-STD.IntLib
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -104,7 +121,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document4]
+[Document5]
 DocumentPath=SZG-STD-FT60X-USBC.BomDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -120,23 +137,6 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
-
-[Document5]
-DocumentPath=FTDI_60X.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=-1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=KHFJYFXU
 
 [Document6]
 DocumentPath=USBC.SchDoc
@@ -168,16 +168,16 @@ Variation4=Designator=J2|UniqueId=\WVEFMCFE|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=Engineer
-Value=Gogol Bhattacharya
+Name=Title
+Value=ZMod USBC FT60X
 
 [Parameter2]
 Name=Revision
 Value=01-A
 
 [Parameter3]
-Name=Title
-Value=ZMod USBC FT60X
+Name=Engineer
+Value=Gogol Bhattacharya
 
 [Configuration1]
 Name=Default Configuration
