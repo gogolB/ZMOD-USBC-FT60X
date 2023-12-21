@@ -1,2 +1,3 @@
-Record=TopLevelDocument|FileName=FTDI_60X.SchDoc|SheetNumber=2
-Record=NoMainPathDocument|SourceDocument=FTDI_60X.SchDoc|FileName=SZG-TEMPLATE-STD.SchDoc|SheetNumber=1
+Record=TopLevelDocument|FileName=FTDI_60X.SchDoc|SheetNumber=1
+Record=NoMainPathDocument|SourceDocument=FTDI_60X.SchDoc|FileName=SZG-TEMPLATE-STD.SchDoc|SheetNumber=2
+Record=NoMainPathDocument|SourceDocument=FTDI_60X.SchDoc|FileName=USBC.SchDoc|SheetNumber=3
